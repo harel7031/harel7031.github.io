@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact_Continue_Pirov Diamonds</title>
+    <link rel="stylesheet" type="text/css" href="Contact2.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet1.css">
+    <script>
+        function setParamsFromGet() {
+            //Get the parms from the url and set them in the document
+            /* הגדרנו פרמטרים ואז השתמשנו בפונקציה מובנת שמחפשת פרמטרים וגם יש את מה שבתוך הסוגריים שזה לוקח את הדברים אחרי סימן השאלה כולל */
+            params = new URLSearchParams(location.search);
+            var l = params.get("lname");
+            var f = params.get("fname");
+            var p = params.get("phone");
+            var g = params.get("gmail");
+            var r = params.get("request");
+            document.getElementById("lastName").innerHTML = l;
+            document.getElementById("firstName").innerHTML = f;
+            document.getElementById("Phone").innerHTML = p;
+            document.getElementById("Gmail").innerHTML = g;
+            document.getElementById("Request").innerHTML = r;
+        }
+        </script>
+
+<script>
+var D = new Date(); // הגדרנו תאריך ומשם לקחנות שעות שנים וכו
+var y = D.getFullYear();
+var m = D.getMonth()+1; 
+var d = D.getDate();
+var t = D.getHours();
+var m2 = D.getMinutes();
+var s = D.getSeconds();
+function displayDate() {
+document.getElementById("demo").innerHTML =d+"/"+m+"/"+y+","+" "+t+":"+m2+":"+s;
+}
+</script>
+
+
+<script>
+    // הגדרנו פונקציה שמקבלת תמונות ומחליפה את הזווית של התמונה
+    var index = 0;
+    var images = ["1212.png", "13.png", "1313.png","12.png"];
+    function changeZavit(){
+        document.getElementById('img1').src=images[index];
+        index++;
+        if  (index==images.length){
+            index=0;
+        }
+    }
+</script>
+<script>
+
+function getCssClass() {
+
+//מחזירה מחלקה מתאימה בהתאם לשעה ביום
+var d = new Date();
+var t = d.getHours();
+if(t >= 9 && t <= 18)
+ return "body";
+else 
+return "body2";
+}
+function changecol(){
+    document.getElementById("mainDiv").className = getCssClass();
+}
+</script>
+
+  
+  
+</head>
+<body onload="setParamsFromGet() ,displayDate() ,changecol()" dir="rtl">
+<div id="mainDiv">
+    <a href="Navigation.html">
+        <img src="Untitled-1.png" class="PirovLogo2">
+    </a>
+<br>
+<ul>
+<li><a href="Navigation.html"><b>ראשי</b></a></li>
+<li><a href="About Me.html" ><b>אודות</b></a></li>
+<li class="dropdown">
+<a href="#"><b>הקטלוג שלנו</b></a>
+<div class="dropdown-content">
+<a href="wedding rings.html"> טבעות נישואין</a>
+<a href="engagement_ring.html">טבעת אירוסין</a>
+<a href="Necklaces.html">שרשראות</a>
+<a href="Bracelets.html">צמידים</a>
+<a href="Earrings.html">עגילים</a>
+<a href="Watch.html"> שעונים</a>
+</div>
+
+</li>
+<li><a href="Branches.html"><b>סניפים</b></a></li>
+<li><a href="Contact.html"><b>צור קשר</b></a></li>
+
+
+</ul>
+
+<div class="head">
+    <ins><h2><mark>מספר פניה-0256378:</mark> </h2></ins>
+    </div>
+    <div class="contact3">
+   שלום לך: <b><span id="firstName"></span> <span id="lastName"></span></b>.
+    <br>
+   תודה רבה שבחרת ביהלומי פירוב אנחנו כאן כדי לעזור לך במה שנוכל.
+   <br>
+   הצוות שלנו ישמח לחזור אליך תוך 3 ימי עסקים מרגע הפניה שלך אלינו.
+   <br>
+אנחנו נחזור אליך בהקדם למספר הטלאפון שלך:<b><span id="Phone"></span></b>
+<br>
+או לכתובת המייל שלך: <b><span id="Gmail"></span></b>
+<br>
+בעיית פנייתך הייתה: <b><span id="Request"></span></b>
+<br>
+<b>מספר הפנייה שלך הוא: 0256378</b>
+<br>
+תגובתך נרשמה אצלנו:<b><span id="demo"></span></b>
+ <br>
+
+<mark><b>שים לב: במידה ולא נחזור אליך תוך 3 ימי עסקים נשמח 
+    <br>
+    שתתקשר אלינו למספר: 0775006128
+</b></mark>
+    </div>
+    <br> 
+    <div class="click1">
+    <h2>לחצו על התמונה:</h2>
+</div>
+<div class="contact4">
+    <button onclick="changeZavit()"> <img src ="12.png" id="img1"> </button>
+</div>
+
+    <div class="footer"><img src="no copyright !.jpg" class="img2"> All Rights Reserved To Segev Ltd </div>
+   
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+
+
+
+
+    .head{
+       padding-right: 43%;
+       padding-top: 10px;
+    }
+    
+
+    .row {
+    display: table;
+    }
+    
+    .leftcolumn {    
+    float: left;
+    width: 700px;
+    padding-right:  20px; 
+      }
+    .rightcolumn {
+    float: left;
+    text-align: center;
+   
+    
+    }
+ .img1{ 
+     width: 500px;
+     height: 470px;
+ }
+.img2{
+  height: 30px;
+  width: 30px;
+}
+.footer {
+  text-align: center;
+  background-color:  #332d2d;
+  font-size: 35px;
+  color: white;
+ }
+
+

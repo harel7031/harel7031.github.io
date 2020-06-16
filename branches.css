@@ -1,0 +1,56 @@
+
+        .head{
+            text-align: center;
+            padding-top: 10px;
+          }
+
+          table {
+            width: 100%;
+            font-size: 24px;
+            border-collapse: collapse; /* שלא יהיה מסגרת כפולה של  התאים והשורות */
+            border: 1.5px solid black;
+            text-align: center;
+           }
+           
+           tr:nth-child(odd) {  /* שורות אי-זוגיים */
+            background-color: rgb(202, 202, 202);
+          
+          }
+          tr:hover {
+          background-color: yellow;
+          color: red;
+         }
+         th{   /* תאי כותרת */
+          padding: 3px;
+        }
+            td {  /*( תאי מידע (להכניס מידע לתאים) */
+            
+            padding: 3px;
+            }
+.map{
+float: right;
+height: 130px;
+width: 243px;
+margin: 3px;
+}
+.top{
+  padding-left: 47%;
+}
+           
+           .footer {
+           
+  
+            text-align: center;
+            background-color:  #332d2d;
+            font-size: 35px;
+            color: white;
+           }
+           .img2{
+   
+            width: 30px;
+            height: 30px;
+            
+        }
+
+
+          

@@ -1,0 +1,35 @@
+
+
+  
+.img3{
+    width: 930px;
+    height: 450px;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+  }
+  .footer {
+           
+  
+    text-align: center;
+    background-color:  #332d2d;
+    font-size: 35px;
+    color: white;
+   }
+   .img2{
+
+    width: 30px;
+    height: 30px;
+    
+}
+.login{
+  font-size: 27px;
+padding-right: 20px;
+position: absolute;
+top:30%;
+right:0%;
+}
+
+
+  
+       

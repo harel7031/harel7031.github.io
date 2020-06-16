@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+                                        
+<link rel="stylesheet" type="text/css" href="Navigation.css">
+
+<link rel="stylesheet" type="text/css" href="stylesheet1.css">
+<title>Pirov Diamonds</title>
+<script>
+   //פונקציה שמשנה תמונות  
+    var index=0; 
+    var images = ["5.jpg", "8.png", "9.png","7.png","1.png","4.png","6.jpg","3.png"];
+    function movein(){
+       
+        document.getElementById("img").src=images[index];
+        index++;
+        if  (index==images.length){
+            index=0;
+        }
+    }
+    function moveout(){
+                                       /* מה השם של התמונה */
+        document.getElementById("img").src=images[index];
+        index++;
+        if  (index==images.length){
+            index=0;
+        }
+    }
+    function setParamsFromGet() {
+            //Get the parms from the url and set them in the document
+            /* הגדרנו פרמטרים ואז השתמשנו בפונקציה מובנת שמחפשת פרמטרים וגם יש את מה שבתוך הסוגריים שזה לוקח את הדברים אחרי סימן השאלה כולל */
+            params = new URLSearchParams(location.search);
+            var f = params.get("fname");
+            document.getElementById("firstName").innerHTML = f;
+    }
+        </script>
+
+<script>
+function getCssClass() {
+
+    //מחזירה מחלקה מתאימה בהתאם לשעה ביום
+    var d = new Date(); 
+    var t = d.getHours();
+    if(t >= 9 && t <= 18)
+    return "body";
+    else 
+    return "body2";
+    }
+    function changecol(){
+        document.getElementById("mainDiv").className = getCssClass();
+    }
+</script>
+
+   
+</head>
+
+<body onload="changecol(), setParamsFromGet()">
+    <div id="mainDiv">
+    <a href="Navigation.html">
+        <img src="Untitled-1.png" class="PirovLogo2">
+        </a>   
+<ul>
+    <li><a href="Navigation.html"><b>ראשי</b></a></li> 
+   <li><a href="About Me.html" ><b>אודות</b></a></li>
+   <li class="dropdown">
+    <a href="#"><b>הקטלוג שלנו</b></a>
+    <div class="dropdown-content">
+    <a href="wedding rings.html"> טבעות נישואין</a>
+    <a href="engagement_ring.html">טבעת אירוסין</a>
+    <a href="Necklaces.html">שרשראות</a>
+    <a href="Bracelets.html">צמידים</a>
+    <a href="Earrings.html">עגילים</a>
+    <a href="Watch.html"> שעונים</a>
+
+  </div>
+</li>
+    <li><a href="Branches.html"><b>סניפים</b></a></li>
+    <li><a href="Contact.html"><b>צור קשר</b></a></li>
+    </ul>
+<div class="login">
+   את/ה מחובר/ת כ: <span id="firstName"></span>  
+    </div>
+<br>
+
+
+    <img onmouseover="movein();"  onmouseout="moveout();"  src="3.png" id="img" class="img3">
+
+<br>
+<div class="footer">All Rights Reserved To Segev Ltd <img src="no copyright !.jpg" class="img2"></div>
+</body>
+</html>

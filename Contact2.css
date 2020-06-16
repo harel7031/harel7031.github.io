@@ -1,0 +1,44 @@
+
+
+      .head{
+        text-align: center;
+        padding-top: 10px;
+      }
+        
+
+.contact3{
+  font-size: 27px;
+  }
+
+    .click1{
+        position: absolute;
+        top:54%;
+        left:10%;
+        }    
+        .contact4 {
+           
+            position: absolute;
+            top: 63%;
+            left: 20px;
+            }
+            #img1{
+                height: 300px;
+                width: 410px;
+              
+              }
+
+              .footer {
+           
+  
+                text-align: center;
+                background-color:  #332d2d;
+                font-size: 35px;
+                color: white;
+               }
+               .img2{
+       
+                width: 30px;
+                height: 30px;
+                
+            }
+          

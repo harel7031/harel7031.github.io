@@ -1,0 +1,51 @@
+
+    .head{
+        text-align: center;
+        padding-top: 10px;
+      }
+   
+
+        .gallery{
+  
+            margin: 3px;
+            float: left;
+            border: 1px solid black;
+            width: 200px;
+            background-color:white;
+  /*מאפיין= מעבר */  transition: transform 0.8s; /*ערך = שינוי צורה */                            
+            }
+            
+            .gallery img {
+            padding-left: 40px;
+            width: 160px;
+            height: 130px;
+         
+          }
+          .gallery:hover {
+        
+          transform: scale(1.4); /* מגדילה את האלמנט שהיה לפני בהתאם למה  שהוזן */
+          }
+            .desc {
+            
+            text-align: center;
+            font-size: 15px;
+          } 
+          .top{
+           padding-left:  47%;
+
+          }
+          .footer {
+           
+  
+            text-align: center;
+            background-color:  #332d2d;
+            font-size: 35px;
+            color: white;
+           }
+              
+           .img2{
+   
+            width: 30px;
+            height: 30px;
+            
+        }

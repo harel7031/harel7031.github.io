@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="branches.css">
+<link rel="stylesheet" type="text/css" href="stylesheet1.css">
+<title>Branches_Pirov Diamonds</title>
+
+<script>
+    function getCssClass() {
+     // בגלל שזה מחזיר שם של מחלקה צריך להציב אותו בתוך משהו
+        //מחזירה מחלקה מתאימה בהתאם לשעה ביום
+        var d = new Date(); //ליצור אובייקט
+        var t = d.getHours();
+        if(t >= 9 && t <= 18)
+         return "body";
+        else 
+        return "body2";
+        }
+        function changecol(){ 
+            document.getElementById("mainDiv").className = getCssClass();
+        }
+    </script>
+
+</head>
+
+<body dir="ltr" onload="changecol()">
+    <div id="mainDiv">
+    <a href="Navigation.html">
+        <img src="Untitled-1.png" class="PirovLogo2">
+        </a>
+    <br>
+    
+
+
+
+<ul>
+    <li><a href="Navigation.html"><b>ראשי</b></a></li>
+   <li><a href="About Me.html" ><b>אודות</b></a></li>
+   <li class="dropdown">
+    <a href="#"><b>הקטלוג שלנו</b></a>
+    <div class="dropdown-content">
+    <a href="wedding rings.html"> טבעות נישואין</a>
+    <a href="engagement_ring.html">טבעת אירוסין</a>
+    <a href="Necklaces.html">שרשראות</a>
+    <a href="Bracelets.html">צמידים</a>
+    <a href="Earrings.html">עגילים</a>
+   <a href="Watch.html"> שעונים</a>
+
+</div>
+    <li><a href="Branches.html"><b>סניפים</b></a></li>
+    <li><a href="Contact.html"><b>צור קשר</b></a></li>
+
+
+</li>
+    </ul>
+ 
+    <div class="head">
+       <ins><h2> <mark>:סניפים</mark></h2></ins>
+    </div>
+    
+
+
+    
+    
+    <table>
+    <tr>  <th><u>:מספר טלאפון</u> </th> <th><u>:מס' כתובת</u></th>  <th><u>:רחוב</u> </th><th><u>:עיר</u> </th> <th><u>:משפחה</u></th> <th><u>:מנהל החנות</u> </th> </tr>
+    
+    <tr> <td> 03-9646984</td> <td>41</td> <td>רוטשילד</td><td>ראשון-לציון </td> <td>פירוב</td> <td>יורה </td> </tr>
+    
+    <tr> <td> 09-8348737</td> <td>7</td> <td>ויצמן</td><td>נתניה </td> <td>כהן</td> <td>בנימין </td> </tr>
+    <tr> <td> 03-6709342</td> <td>30</td> <td>ביאליק</td><td>רמת-גן </td> <td>דוידוב</td> <td>סשה </td> </tr>
+    <tr> <td> 03-6729859</td> <td>67</td> <td>ביאליק</td><td>רמת-גן </td> <td>חיימוב</td> <td>אריאל </td> </tr>
+    <tr> <td> 03-2143986</td> <td>60</td> <td>הרצל </td><td>תל-אביב </td> <td>פירוב</td> <td>רפאל </td> </tr>
+    
+    <tr> <td> 09-8387953</td> <td>2</td> <td>לח"י</td><td>בני-ברק </td> <td>סזנייב</td> <td>מיכאל </td> </tr>
+    <tr> <td> 03-6590874</td> <td>16</td> <td>הלוחמים</td><td>חולון </td> <td>אקילוב</td> <td>נועם </td> </tr>
+    <tr> <td> 03-6321459</td> <td>50</td> <td>לוי אשכול</td><td>תל-אביב </td> <td>פירוב</td> <td>ישראל </td> </tr>
+    <tr> <td> 03-7805431</td> <td>18</td> <td>שנקין</td><td>תל-אביב </td> <td>ישראלוב</td> <td>יעקב </td> </tr>
+    <tr> <td> 03-6830210</td> <td>18</td> <td>אסירי ציון</td><td>פתח-תקווה </td> <td>קוסייב</td> <td>אברהם </td> </tr>
+</table>
+   
+    <br>
+    <img src="map1.png" alt="מפה של רוטשילד 41 ראשון לציון" class="map">
+    <img src="map2.png" alt="מפה של ןיצמן 7 נתניה" class="map">
+    <img src="map3.png" alt="מפה של ביאליק 30 רמת-גן" class="map">
+    <img src="map4.png" alt="מפה של ביאליק 67 רמת-גן" class="map">
+    <img src="map5.png" alt="מפה של הרצל 60 תל אביב" class="map">
+    <img src="map6.png" alt="מפה של לחי 2בני-ברק" class="map">
+    <img src="map7.png" alt="מפה של הלוחמים 16 חולון" class="map">
+    <img src="map8.png" alt="מפה של שדרות לוי אשכול 50" class="map">
+    <img src="map9.png" alt="מפה של שינקין 18 תל-אביב" class="map">
+    <img src="map10.png" alt="מפה של אסירי ציון 18 פתח-תקווה" class="map">\
+    
+    <a href="branches.html" class="top"><mark><u> Back to top</u></mark></a>
+    <div class="footer">All Rights Reserved To Segev Ltd <img src="no copyright !.jpg" class="img2"></div>
+
+</body>
+</html>

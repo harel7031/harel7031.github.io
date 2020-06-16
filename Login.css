@@ -1,0 +1,35 @@
+
+.head{
+  text-align: center;
+  padding-top: 10px;
+}
+.box{
+  width: 70%;
+  height: 313px;
+  margin: auto;
+  background-color:#dddddd;
+  text-align: center;
+}
+
+.box input{
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 14px;
+  width: 400px;
+  outline: none; /* שלא יהיה קו סביב ה-אינפוט*/
+  border-radius: 24px;
+}
+
+.footer {
+  text-align: center;
+  background-color:  #332d2d;
+  font-size: 35px;
+  color: white;
+ }
+ .img2{
+  width: 30px;
+  height: 30px;
+  
+}
