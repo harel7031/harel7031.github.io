@@ -1,2 +1,124 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html>
+<head>
+    
+<title>About Me</title>
+<link rel="stylesheet" type="text/css" href="About Me.css">
+<link rel="stylesheet" type="text/css" href="stylesheet1.css">
+
+        <script>
+        function getCssClass() {
+                // בגלל שזה מחזיר שם של מחלקה צריך להציב אותו בתוך משהו
+                   //מחזירה מחלקה מתאימה בהתאם לשעה ביום
+                   var d = new Date(); // ליצור אוביקט עם תאריך
+                   var t = d.getHours();
+                   if(t >= 9 && t <= 18)
+                   return "body";
+                   else 
+                   return "body2";
+                   }
+                   function changecol(){
+                    document.getElementById("mainDiv").className = getCssClass();
+                   }
+               </script>
+               
+                  
+               </head>
+               
+               <body onload="changecol()" dir="rtl">
+                   <div id="mainDiv">
+                   <a href="Navigation.html">
+                       <img src="Untitled-1.png" class="PirovLogo2">
+                       </a>
+                   <br>
+                   
+                  
+               
+                   
+               <ul>
+                   <li><a href="Navigation.html"><b>ראשי</b></a></li> 
+                 <li><a href="About Me.html" ><b>אודות</b></a></li>
+                  <li class="dropdown">
+                   <a href="#"><b>הקטלוג שלנו</b></a>
+                   <div class="dropdown-content">
+                   <a href="wedding rings.html"> טבעות נישואין</a>
+                   <a href="engagement_ring.html">טבעת אירוסין</a>
+                   <a href="Necklaces.html">שרשראות</a>
+                   <a href="Bracelets.html">צמידים</a>
+                   <a href="Earrings.html">עגילים</a>
+                  <a href="Watch.html"> שעונים</a>
+               
+                  </div>
+                   <li><a href="Branches.html"><b>סניפים</b></a></li>
+                   <li><a href="Contact.html"><b>צור קשר</b></a></li>
+               
+                   
+               </li>
+                   </ul>
+                   
+              
+              
+        <div class="head"><ins><h2><mark>אודות:</mark> </h2></ins>
+        </div>
+        <div class="row">
+        <div class="leftcolumn">
+        <div>
+       <ins> <h2>קצת עליי:</h2></ins>
+         שלום לכולם תודה שאתם צופים באתר שלי, אני רוצה לספר קצת על עצמי
+            <br>
+         השם שלי הראל שגב, אני בן 15.5 אני גר בתל אביב ולומד בתל אביב
+         <br>
+         שנקרא הישיבה לאומנויות ולמדעים בר אילן.
+        <ins><h3>אני לומד שם כמה מקצועות:</h3></ins>
+    
+        <ol type="i">
+<li>אני לומד מתמטיקה ועושה 5 יח"ל והמורה שלי אירנה. </li>
+                <br>
+<li>אני לומד אנגלית ועושה 5 יח"ל והמורה שלי יצחק ריינהרץ.</li>
+                <br>
+<li>אני לומד שפת תכנות ועושה 5 יח"לוהמורה שלי הוא רוני ולדן.</li>
+                <br>
+ <li>אני לומד פיזיקה ועושה 5 יח"ל והמורה שלי אלונה ורד.</li>
+                
+                </ol>
+  <br>
+<ins><p><h3>אני אוהב לעשות כמה דברים:</h3></ins>
+           
+        <ol type="i">
+ <li>אני אוהב לשחק כדורגל עם אחי הגדול אנחנו משחקים כמעט כל יום 3 שעות.</li>
+ <br>
+ <li>אני אוהב לתכנת בגוגל מתי שיש לי זמן פנוי אני נכנס לאתר W3schools.</li>
+ <br>
+<li>אני אוהב לשחק הרבה בפלאפון,אני ואחי הקטן אוהבים לשחק במשחק שנקרא fifa.</li>
+ <br>
+ <li>אני אוהב לרכב על אופניים עם אבא שלי אנחנו רוכבים תמיד בפארק בשם "אירוס".</li>
+                                
+ </ol>
+ </p>
+        
+        <br>
+        
+        <ins><h3>עוד עלי:</h3></ins>
+        <p> אני ילד בגובה 160 ס"מ ושוקל 45 kg.
+        אנחנו 5 אנשין במשפחה.
+אני למדתי ג'דו מגיל 6 ועד גיל 12.  
+<br>
+מלא אנשים אמרו לי שאני ילד חברותי ושכיף להיות בחברתו ושאני ילד מצחיק.
+<br>
+כשיש חופש אני עובד בחנות של המשפחה שלי "יהלומי פירוב" וכשהיה גדול אני רוצה להיות עורך דין.
+<p>
+       
+        </div>
+        </div>
+        <div class="rightcolumn">        
+       <ins> <h2>זה אני בגיל 14:</h2></ins>
+       
+        <img src="That's Me.jpeg" class ="img1">
+        </div>
+        </div>
+        
+        
+        <div class="footer"> <img src="no copyright !.jpg" class="img2"> All Rights Reserved To Segev Ltd 
+        </div>
+
+</body>
